@@ -1,2 +1,4 @@
 # BUAA-Database-2020
-北航2018级数据库课程设计 SDEAM游戏平台 by gottfriede/ cjbbb/ a cat 
+project in course 'database@BUAA'
+Finished a game store named SDEM
+北航2018级数据库课程设计 SDEM游戏平台 by gottfriede/ cjbbb/ a cat 
