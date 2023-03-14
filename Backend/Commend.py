@@ -1,4 +1,5 @@
-# 推荐算法
+# recommend algorithm
+
 class Commend():
     def __init__(self):
         self.User2Map = {}

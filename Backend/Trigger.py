@@ -1,7 +1,7 @@
 from Mysql import session
 
 
-##############  触发器  ##################
+##############  database trigger  ##################
 def afterDeleteBuy():
     session.execute("DROP TRIGGER IF EXISTS afterDeleteBuy")
     session.commit()

@@ -3,14 +3,14 @@ from Trigger import *
 from app import app
 from Commend import *
 
-com = Commend()  # 单例模式
+com = Commend()  # single instance model
 
 
 def init():
-    # 创建表
+    # create table
     Base.metadata.create_all(engine)
 
-    # 创建触发器
+    # create trigger
     afterDeleteBuy()
     afterDeleteGame()
     afterDeleteUser()

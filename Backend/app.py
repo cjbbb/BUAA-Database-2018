@@ -866,7 +866,7 @@ def DeleteDeveloper():
         return "SUCCESS", 200
 
 
-@app.route('/adminDeleteComment', methods=['POST', 'GET'])  # 管理者删除评论
+@app.route('/adminDeleteComment', methods=['POST', 'GET'])  # admin Delete Comment
 def AdminDeleteComment():
     if request.method == 'POST':
         postForm = json.loads(request.get_data(as_text=True))
@@ -881,7 +881,7 @@ def AdminDeleteComment():
         return "SUCCESS", 200
 
 
-@app.route('/queryDeveloper', methods=['POST', 'GET'])  # 管理者删除评论
+@app.route('/queryDeveloper', methods=['POST', 'GET'])  # Query Developer Info
 def QueryDeveloper():
     if request.method == 'POST':
         postForm = json.loads(request.get_data(as_text=True))
